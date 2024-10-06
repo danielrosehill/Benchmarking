@@ -1,0 +1,104 @@
+{
+    "system": {
+      "computer_type": "Desktop",
+      "build_type": "Custom Build",
+      "components": {
+        "CPU": {
+          "model": "Intel Core i7-12700F",
+          "speed": "2.1GHz",
+          "cache": "25MB",
+          "socket": "1700",
+          "architecture": "x86_64",
+          "modes": ["32-bit", "64-bit"],
+          "address_sizes": {
+            "physical": "39 bits",
+            "virtual": "48 bits"
+          },
+          "cores": 12,
+          "threads_per_core": 2,
+          "vendor": "GenuineIntel"
+        },
+        "motherboard": {
+          "model": "Pro B760M-A WiFi",
+          "socket": "1700",
+          "chipset": "MSI B760",
+          "RAM_type": "DDR5"
+        },
+        "RAM": {
+          "total_size": "32GB",
+          "speed": "4800MHz",
+          "modules": [
+            {
+              "slot": "Controller0-DIMMA2",
+              "size": "16GB",
+              "type": "DDR5",
+              "speed": "4800 MT/s",
+              "manufacturer": "Kingston"
+            },
+            {
+              "slot": "Controller1-DIMMB2",
+              "size": "16GB",
+              "type": "DDR5",
+              "speed": "4800 MT/s",
+              "manufacturer": "Kingston"
+            }
+          ]
+        },
+        "GPU": {
+          "model": "AMD Radeon RX 7700 XT Pulse Gaming",
+          "memory": "12GB",
+          "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]"
+        },
+        "power_supply": {
+          "model": "Seasonic Focus GX-850",
+          "wattage": "850W",
+          "certification": "Gold 80+"
+        },
+        "cooler": {
+          "model": "Be Quiet Pure Rock 2"
+        },
+        "case": {
+          "model": "Be Quiet Pure Base 500"
+        },
+        "OS": {
+          "name": "Fedora Workstation",
+          "version": "40"
+        }
+      }
+    },
+    "storage": {
+      "filesystem": {
+        "type": "BTRFS",
+        "label": "fedora",
+        "total_size": "2.73TiB",
+        "used": "226.66GiB",
+        "unallocated_space": "2.23TiB",
+        "raid_level": "RAID1",
+        "raid_configuration": {
+          "data": "245.00GiB",
+          "metadata": "7.00GiB"
+        },
+        "devices": [
+          {
+            "name": "NVME",
+            "path": "/dev/nvme0n1p1",
+            "total_size": "931.51GiB",
+            "used": "81.04GiB"
+          },
+          {
+            "name": "SSD1",
+            "path": "/dev/sda3",
+            "total_size": "929.93GiB",
+            "used": "79.00GiB"
+          },
+          {
+            "name": "SSD2",
+            "path": "/dev/sdb1",
+            "total_size": "931.51GiB",
+            "used": "81.03GiB"
+          }
+        ]
+      }
+    }
+  }
+  
